@@ -1,0 +1,31 @@
+{
+    "name": "MAX11254-LIB",
+    "version": "1.0.0",
+    "description": "Arduino library for interacting with MAX11254 adc.",
+    "keywords": "arduino, library, max11254, adc",
+    "repository":
+    {
+        "type": "git",
+        "url": "https://github.com/ae-michu/MAX11254-LIB"
+    },
+    "authors":
+    [
+        {
+            "name": "Michał Pękal",
+            "url": "https://github.com/ae-michu",
+            "maintainer": true
+        }
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/ae-michu/MAX11254-LIB",
+    "frameworks": ["arduino"],
+    "platforms": "*",
+    "export":
+    {
+        "exclude":
+        [
+            "examples",
+            ".gitignore"
+        ]
+    }
+}
